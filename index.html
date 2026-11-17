@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en" style="background:#ffffff">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Adithya Girish — Portfolio</title>
+  <meta name="description" content="Portfolio of Adithya Girish: projects in machine learning, data analysis and software, with a research paper and certifications.">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Adithya Girish — Portfolio">
+  <meta property="og:description" content="Projects in machine learning, data analysis and software, a research paper, and certifications.">
+  <meta name="theme-color" content="#0a0908">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Instrument+Sans:wght@400;500&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body data-page="home">
+  <div id="intro"><div class="boot"></div></div>
+
+  <div id="rail" aria-label="Sections"></div>
+
+  <div class="container">
+    <header id="header"></header>
+
+    <section class="hero" id="hero"></section>
+
+    <section class="work" id="work">
+      <h2 class="sec-title" data-reveal>Projects</h2>
+      <div id="rows"></div>
+    </section>
+
+    <section class="work" id="publications">
+      <h2 class="sec-title" data-reveal>Research &amp; Publications</h2>
+      <div id="pubs"></div>
+    </section>
+
+    <section class="work" id="skills">
+      <h2 class="sec-title" data-reveal>Skillset</h2>
+      <div id="skillrows"></div>
+    </section>
+
+    <div id="panel-src" hidden>
+    <section class="work" id="interests">
+      <h2 class="sec-title" data-reveal>Areas of Interest</h2>
+      <p class="int-intro" id="iintro" data-reveal></p>
+      <div id="ints"></div>
+    </section>
+
+    <section class="work" id="certs">
+      <h2 class="sec-title" data-reveal>Certifications</h2>
+      <div id="certrows"></div>
+    </section>
+
+    </div>
+
+    <footer id="footer"></footer>
+  </div>
+
+  <script src="https://unpkg.com/lenis@1.1.18/dist/lenis.min.js"></script>
+  <script src="data.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>
